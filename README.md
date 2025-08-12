@@ -6,7 +6,7 @@ This project develops a machine learning model to predict the outcomes of Women'
 
 Using WTA match data spanning 12 years, this model goes beyond win-loss records, but it uses tennis-specific metrics and temporal patterns that influence match results. The philosophy behind this project is that tennis matches are determined by skill differentials, physical readiness, and match-specific advantages that can be captured by this model. Some predictors include player rank differentials, recent win rate differentials, experience through total career matches and recent activity, rest between matches, and head-to-head advantages. 
 
-The system implements both Logistic Regression and Random Forest to analyze different aspects of tennis prediction complexity with a train-test split using 2024 as the holdout test year. Random forest model achieves 63.9% accuracy, representing a 13.9 percentage point improvement over random chance on a dataset of 34,249 matches spanning 12 years with 1404 unique players.
+The system implements both Logistic Regression and Random Forest to analyze different aspects of tennis prediction complexity with a train-test split using 2024 as the holdout test year. Random forest model achieves `63.9%` accuracy, representing a `13.9` percentage point improvement over random chance on a dataset of 34,249 matches spanning 12 years with 1,404 unique players.
 
 ![WTA Model Analysis](confusion_matrix.png)
 ![Model Visualization](player_visualization.png)

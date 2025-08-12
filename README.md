@@ -35,4 +35,4 @@ The system implements both Logistic Regression and Random Forest to analyze diff
 
 ## Data Source
 
-Dataset is available on Kaggle and Jeff Sackmann's Git Repository using these links: [WTA Tennis Rankings, Results, and Stats (1920-2023)](https://www.kaggle.com/datasets/warcoder/wta-tennis-rankings-results-and-stats2019-2023/data), [tennis_wta](https://github.com/JeffSackmann/tennis_wta)
+Dataset is available on Kaggle and Jeff Sackmann's Git Repository using these links: [WTA Tennis Rankings, Results, and Stats (1920-2023)](https://www.kaggle.com/datasets/warcoder/wta-tennis-rankings-results-and-stats2019-2023/data) and [tennis_wta](https://github.com/JeffSackmann/tennis_wta)

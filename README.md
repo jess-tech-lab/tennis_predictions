@@ -8,7 +8,9 @@ Using WTA match data spanning 12 years, this model goes beyond win-loss records,
 
 The system implements both Logistic Regression and Random Forest to analyze different aspects of tennis prediction complexity with a train-test split using 2024 as the holdout test year. Random forest model achieves `63.9%` accuracy, representing a `13.9` percentage point improvement over random chance on a dataset of 34,249 matches spanning 12 years with 1,404 unique players.
 
+![Feature Importance](feature_comp.png)
 ![WTA Model Analysis](confusion_matrix.png)
+![Surface Chart](surface_chart.png)
 ![Model Visualization](player_visualization.png)
 
 
@@ -36,3 +38,7 @@ The system implements both Logistic Regression and Random Forest to analyze diff
 ## Data Source
 
 Dataset is available on Kaggle and Jeff Sackmann's Git Repository using these links: [WTA Tennis Rankings, Results, and Stats (1920-2023)](https://www.kaggle.com/datasets/warcoder/wta-tennis-rankings-results-and-stats2019-2023/data) and [tennis_wta](https://github.com/JeffSackmann/tennis_wta)
+
+## Publishing
+
+The source code and results have been published at [Kaggle: Predict WTA Tennis Matches](https://www.kaggle.com/code/jessixhuan11/predict-wta-tennis-matches).
